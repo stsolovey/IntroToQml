@@ -6,5 +6,6 @@
         <file>Circle.qml</file>
         <file>CircleForm.ui.qml</file>
         <file>Receiver.qml</file>
+        <file>Sender.qml</file>
     </qresource>
 </RCC>
