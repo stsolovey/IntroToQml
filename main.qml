@@ -10,6 +10,7 @@ Window {
     Background {
         id: background
         anchors.fill: parent
+        target: sender
 
         Sender {
             id: sender
@@ -31,6 +32,7 @@ Window {
             buttonColor: "#ff0000"
             anchors.right: parent.right
             anchors.rightMargin: 50
+            width: sender.width
         }
     }
 }
