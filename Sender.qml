@@ -7,7 +7,7 @@ Circle {
     property Receiver target: null
 
     signal send(string value)
-    onTargetChanged: send.connect(target.receive())
+    onTargetChanged: send.connect(target.receive)
 
     MouseArea {
         anchors.fill: parent
