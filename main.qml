@@ -9,15 +9,12 @@ Window {
 
     Background {
         id: background
-        anchors.rightMargin: 0
-        anchors.bottomMargin: 0
-        anchors.leftMargin: 0
-        anchors.topMargin: 0
         anchors.fill: parent
 
         Sender {
             id: sender
             y: 140
+            anchors.verticalCenter: parent.verticalCenter
             displayText: "Sender"
             buttonColor: "#0000ff"
             anchors.left: parent.left
@@ -29,6 +26,7 @@ Window {
             id: receiver
             x: 375
             y: 140
+            anchors.verticalCenter: parent.verticalCenter
             displayText: "Receiver"
             buttonColor: "#ff0000"
             anchors.right: parent.right
